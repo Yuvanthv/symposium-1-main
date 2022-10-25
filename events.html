@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Rendezvous</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons 
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.1.1
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    .overlay_flight_traveldil {
+  position: fixed;
+  padding:5%;
+  top: 55%;
+  bottom: 50%;
+  left: 100%;
+  right: 100%;
+  width: 100%;
+  /*background: rgba(8, 106, 253, 0.7);*/
+  transition: opacity ;
+  visibility: hidden;
+  opacity: 0;
+}
+.myclass{
+  text-align: center;
+}
+.overlay_flight_traveldil:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup_flight_travlDil {
+  margin: 70px auto;
+  padding: 20px;
+  background: rgb(36, 31, 31);
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+  max-height: 30%;
+  overflow: auto;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="logo-rendezvous.png">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <!-- <li><a href="about.html"></a></li> -->
+          <li class="dropdown"><a href="#"><span>Events</span> <!-- <i class="bi bi-chevron-down dropdown-indicator"></i>--></a>
+            <!-- <ul>
+              <!-- <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul> -->
+          </li>
+          <li><a href="transport.html">Transport</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+       <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Events</h2><hr>
+            <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">Event management is the application of project management to the creation and development of small and/or large-scale personal or corporate events such as festivals, conferences, ceremonies, weddings, formal parties, concerts, or conventions.</p>
+
+            <!-- <a class="cta-btn" href="contact.html">Available for hire</a> -->
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="service" class="services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-activity"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;" ><a href="#popup_flight_travlDil1" class="stretched-link">Paper Presentation</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">Paper Presentation is all about how you put your topic or present your topic in front of the audience.</p>
+              <!--<button class="trigger">Register Now</button>
+              <div class="modal">
+                <div class="modal-content">
+                  <span class="close-button">&times;</span>
+                  <h1>Hello</h1>
+                </div>
+              </div>-->
+              <div id="popup_flight_travlDil1" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Paper Presentation</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life.                       
+                  </div>
+                  <div class="myclass">
+                  <a  href="#"><span>   Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-bounding-box-circles"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;"><a href="#popup_flight_travlDil2" class="stretched-link">Tech Hunt</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">This event conducts a event like a game called treasure hunt.</p>
+              <div id="popup_flight_travlDil2" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Tech Hunt</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life. Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                  </div>
+                  <div class="myclass">
+                  <a href="#"><span>Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-calendar4-week"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;"><a href="#popup_flight_travlDil3" class="stretched-link">Bid n Discuss</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">This event conducts a quiz in first level some of them collect the coins and uses them in second level.</p>
+              <div id="popup_flight_travlDil3" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Bid n Discuss</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life. Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                  </div>
+                  <div class="myclass">
+                  <a href="#"><span>Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-broadcast"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;"><a href="#popup_flight_travlDil4" class="stretched-link">Unwrap Story</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">This event unwraps the story of the full story.</p>
+              <div id="popup_flight_travlDil4" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Unwrap Story</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life. Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                  </div>
+                  <div class="myclass">
+                  <a href="#"><span>Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-broadcast"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;" ><a href="#popup_flight_travlDil5" class="stretched-link">Blind Code</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div id="popup_flight_travlDil5" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Blind Code</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life. Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                       Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                  </div>
+                  <div class="myclass">
+                  <a href="#"><span>Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex">
+            <div class="service-item position-relative">
+              <i class="bi bi-broadcast"></i>
+              <h4 style="font-family: 'Montserrat', sans-serif; font-style: italic;"><a href="#popup_flight_travlDil6" class="stretched-link">Lemon & Spoon</a></h4>
+              <p style="font-family: 'Montserrat', sans-serif; font-style: italic;">This event is a game played in sports.</p>
+              <div id="popup_flight_travlDil6" class="overlay_flight_traveldil">
+                <div class="popup_flight_travlDil">
+                  <h2 style="font-family: 'Montserrat', sans-serif; font-style: italic;">Lemon & Spoon</h2>
+                  <a class="close_flight_travelDl" href="#">&times;</a>
+                  <div style="font-family: 'Montserrat', sans-serif; font-style: italic;" class="content_flightht_travel_dil">
+                    Technology is the application of knowledge to reach practical goals in a specifiable
+                     and reproducible way.[1] The word technology may also mean the product of such an 
+                     endeavor.[2]: 117 [3] The use of technology is widely prevalent in medicine, science,
+                      industry, communication, transportation, and daily life. Technologies include physical
+                       objects like utensils or machines and intangible tools such as software.
+                  </div>
+                  <div class="myclass">
+                  <a href="#"><span>Register Now!</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Pricing Section ======= 
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Prices</h2>
+          <p>Check my adorable pricing</p>
+        </div>
+
+        <div class="row gy-4 gx-lg-5">
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Portrait Photography</h3>
+              <h4>$160.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Fashion Photography</h3>
+              <h4>$300.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Sports Photography</h3>
+              <h4>$200.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Still Life Photography</h3>
+              <h4>$120.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Wedding Photography</h3>
+              <h4>$500.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-lg-6">
+            <div class="pricing-item d-flex justify-content-between">
+              <h3>Photojournalism</h3>
+              <h4>$200.00</h4>
+            </div>
+          </div><!-- End Pricing Item 
+
+        </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p></p>
+        </div>
+
+        <div class="slides-3 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg" class="testimonial-img" alt="">
+                  <h3>President Name</h3>
+                  <h4>President</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  Thiru.R.S.Munirathinam Founder-Chairman of R.M.K Group of Institutions is well known for his philanthropic attitude and service as an elected member of the State Assembly of Tamil Nadu. He envisioned a technological revolution and committed himself to establish an institution, to foster technical education.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://rmd.ac.in/img/Chairman.jpg" class="testimonial-img" alt="">
+                  <h3>Thiru.R.S.Munirathinam</h3>
+                  <h4>Founder &amp;Chairman</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  Dr.N.Anbuchezhian, an accomplished academician, possesses a rich experience of more than 36 years in Teaching, Research and Administration in the affiliated colleges of Anna University, Chennai.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://rmd.ac.in/img/vp.jpg" class="testimonial-img" alt="">
+                  <h3>Dr.N.Anbuchezhian</h3>
+                  <h4>Principle</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  K.K. Thyagharajan received his B.Eng. degree in Electrical and Electronics Engineering from PSG College of Technology, Madras University, India and received his M.Eng. degree in Applied Electronics from Coimbatore Institute of Technology, India in 1988. 
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://rmd.ac.in/dept/cse/images/hod.jpg" class="testimonial-img" alt="">
+                  <h3>K.K. Thyagharajan</h3>
+                  <h4>Dean Research</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>--> 
+                </div>
+                <p>
+                  Dr.P.Ezhumalai B.E, M.Tech, Ph.D is the Professor and Head of the Department of Computer Science and Engineering at R.M.D Engineering College, Chennai.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="https://rmd.ac.in/dept/cse/images/hod.jpg" class="testimonial-img" alt="">
+                  <h3>Dr.P.Ezhumalai</h3>
+                  <h4>HOD CSE Department</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Rendezvous</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">Rendezvous</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
